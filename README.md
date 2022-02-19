@@ -24,7 +24,6 @@ filebrowser provides a file managing interface within a specified directory and 
 
 ## Screenshots
 
-![](./doc/screenshots/.DS_Store)
 ![](./doc/screenshots/spaces_-M8KDxOujDoPpJyJJ5_i_uploads_git-blob-9390768b0cbb83b1e7da55c0ae13ecd2d8fcb114_2.PNG)
 
 ## Disclaimers / important information
