@@ -4,7 +4,6 @@
   "address": "127.0.0.1",
   "log": "stdout",
   "database": "__FINALPATH__/database.db",
-  "config": "__FINALPATH__/settings.json",
   "root": "__DATADIR__",
   "username": "__ADMIN__",
   "password": "__PASSWORD__"
