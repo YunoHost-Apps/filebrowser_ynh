@@ -4,7 +4,5 @@
   "address": "127.0.0.1",
   "log": "stdout",
   "database": "__FINALPATH__/database.db",
-  "root": "__DATADIR__",
-  "username": "__ADMIN__",
-  "password": "__PASSWORD__"
+  "root": "__DATADIR__"
 }
