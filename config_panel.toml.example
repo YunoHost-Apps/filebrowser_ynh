@@ -1,0 +1,14 @@
+version = "1.0"
+
+[main]
+name = "FileBrowser configuration"
+services = ["__APP__"]
+
+    [main.config]
+    name = "Configuration Options"
+
+        [main.config.datadir_path]
+        ask = "Choose path"
+        type = "path"
+        help = "Choose path"
+        bind = "root:/var/www/__APP__/settings.json"

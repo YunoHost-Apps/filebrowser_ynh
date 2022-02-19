@@ -1,0 +1,8 @@
+{
+  "port": "__PORT__",
+  "baseURL": "__PATH__",
+  "address": "127.0.0.1",
+  "log": "stdout",
+  "database": "__FINALPATH__/database.db",
+  "root": "__DATADIR__"
+}

@@ -1,0 +1,42 @@
+{
+    "name": "Filebrowser",
+    "id": "filebrowser",
+    "packaging_format": 1,
+    "description": {
+        "en": "Web File Browser",
+        "fr": "Gestionnaire de fichiers"
+    },
+    "version": "2.20.1~ynh1",
+    "url": "https://filebrowser.org",
+    "upstream": {
+        "license": "Apache-2.0",
+        "website": "https://filebrowser.org",
+        "admindoc": "https://filebrowser.org/",
+        "code": "https://github.com/filebrowser/filebrowser"
+    },
+    "license": "Apache-2.0",
+    "maintainer": {
+        "name": "John doe",
+        "email": "john.doe@example.com"
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    }
+}
