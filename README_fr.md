@@ -30,6 +30,7 @@ username: admin
 password: admin
 ```
 
+
 ## Documentations et ressources
 
 * Site officiel de l'app : https://filebrowser.org

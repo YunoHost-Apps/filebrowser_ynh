@@ -34,6 +34,7 @@ username: admin
 password: admin
 ```
 
+
 ## Documentation and resources
 
 * Official app website: https://filebrowser.org
