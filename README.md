@@ -28,7 +28,8 @@ filebrowser provides a file managing interface within a specified directory and 
 
 ## Disclaimers / important information
 
-### Credentials
+### Default credentials
+
 ```
 username: admin
 password: admin
