@@ -7,7 +7,7 @@ services = ["__APP__"]
     [main.config]
     name = "Configuration Options"
 
-        [main.config.datadir_path]
+        [main.config.datadir]
         ask = "Choose path"
         type = "path"
         help = "Choose path"
