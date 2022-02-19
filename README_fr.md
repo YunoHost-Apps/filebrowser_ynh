@@ -26,8 +26,11 @@ filebrowser provides a file managing interface within a specified directory and 
 ## Avertissements / informations importantes
 
 ### Credentials
-   admin
-   admin
+```
+username: admin
+password: admin
+```
+
 ## Documentations et ressources
 
 * Site officiel de l'app : https://filebrowser.org

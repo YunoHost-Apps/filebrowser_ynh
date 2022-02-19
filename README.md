@@ -30,8 +30,11 @@ filebrowser provides a file managing interface within a specified directory and 
 ## Disclaimers / important information
 
 ### Credentials
-   admin
-   admin
+```
+username: admin
+password: admin
+```
+
 ## Documentation and resources
 
 * Official app website: https://filebrowser.org
