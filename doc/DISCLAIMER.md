@@ -1,3 +1,5 @@
 ### Credentials
-   admin
-   admin
+```
+username: admin
+password: admin
+```
