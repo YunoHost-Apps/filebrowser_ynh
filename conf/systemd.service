@@ -7,7 +7,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__FINALPATH__/
-ExecStart=__FINALPATH__/filebrowser
+ExecStart=__FINALPATH__/filebrowser -p __PORT__ -c __FINALPATH__/settings.json
 
 [Install]
 WantedBy=multi-user.target
