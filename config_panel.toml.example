@@ -1,14 +1,15 @@
 version = "1.0"
 
 [main]
-name = "FileBrowser configuration"
+name = "Filebrowser configuration"
 services = ["__APP__"]
 
     [main.config]
     name = "Configuration Options"
 
-        [main.config.datadir_path]
+        [main.config.datadir]
         ask = "Choose path"
         type = "path"
+        default = "/home/yunohost.app/filebrowser"
         help = "Choose path"
         bind = "root:/var/www/__APP__/settings.json"
