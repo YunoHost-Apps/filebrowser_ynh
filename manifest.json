@@ -6,7 +6,7 @@
         "en": "Web File Browser",
         "fr": "Gestionnaire de fichiers"
     },
-    "version": "2.20.1~ynh2",
+    "version": "2.21.1~ynh1",
     "url": "https://filebrowser.org",
     "upstream": {
         "license": "Apache-2.0",
