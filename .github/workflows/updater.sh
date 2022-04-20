@@ -10,7 +10,7 @@
 # automatic actions when a new upstream release is detected.
 
 # Remove this exit command when you are ready to run this Action
-exit 1
+#exit 1
 
 #=================================================
 # FETCHING LATEST RELEASE AND ITS ASSETS
@@ -66,13 +66,13 @@ echo "Handling asset at $asset_url"
 # Here we base the source file name upon a unique keyword in the assets url (admin vs. update)
 # Leave $src empty to ignore the asset
 case $asset_url in
-  *"/linux-amd64-filebrowser.tar.gz"*)
+  *"/linux-amd64-filebrowser.tar.gz")
     src="amd64"
     ;;
-  *"/linux-arm64-filebrowser.tar.gz"*)
+  *"/linux-arm64-filebrowser.tar.gz")
     src="arm64"
     ;;
-  *"/linux-armv7-filebrowser.tar.gz"*)
+  *"/linux-armv7-filebrowser.tar.gz")
     src="armhf"
     ;;
 esac
