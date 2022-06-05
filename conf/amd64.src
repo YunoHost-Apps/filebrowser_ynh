@@ -2,5 +2,5 @@ SOURCE_URL=https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/
 SOURCE_SUM=4017a0c1407bbbd781d4abf4941697a802c448b2d3b818c66a978e39f96c9619
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=false
-SOURCE_EXTRACT=true
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=

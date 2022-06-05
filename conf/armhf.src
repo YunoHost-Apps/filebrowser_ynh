@@ -1,6 +1,6 @@
-SOURCE_URL=https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/linux-armv7-filebrowser.tar.gz
-SOURCE_SUM=cd02b1b56be1172082421e5403582ee4e501daaf1af4afd3744170d0bf0ed9a7
+SOURCE_URL=https://github.com/filebrowser/filebrowser/releases/download/v2.22.0/windows-armv7-filebrowser.zip
+SOURCE_SUM=bfc54acab5940f2b1d944517335ef6ec080ba496cd5636c46ce8dfed93d610a5
 SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=tar.gz
-SOURCE_IN_SUBDIR=false
-SOURCE_EXTRACT=true
+SOURCE_FORMAT=zip
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=
