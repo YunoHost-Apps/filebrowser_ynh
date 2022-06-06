@@ -66,14 +66,17 @@ echo "Handling asset at $asset_url"
 # Here we base the source file name upon a unique keyword in the assets url (admin vs. update)
 # Leave $src empty to ignore the asset
 case $asset_url in
-  *"/linux-amd64-filebrowser.tar.gz")
+  *"linux-amd64-filebrowser.tar.gz")
     src="amd64"
     ;;
-  *"/linux-arm64-filebrowser.tar.gz")
+  *"linux-arm64-filebrowser.tar.gz")
     src="arm64"
     ;;
-  *"/linux-armv7-filebrowser.tar.gz")
+  *"linux-armv7-filebrowser.tar.gz")
     src="armhf"
+    ;;
+  *)
+    src=""
     ;;
 esac
 
@@ -104,7 +107,7 @@ SOURCE_URL=$asset_url
 SOURCE_SUM=$checksum
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=$extension
-SOURCE_IN_SUBDIR=true
+SOURCE_IN_SUBDIR=false
 SOURCE_FILENAME=
 EOT
 echo "... conf/$src.src updated"
