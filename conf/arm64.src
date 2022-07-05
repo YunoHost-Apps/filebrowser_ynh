@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/filebrowser/filebrowser/releases/download/v2.22.2/linux-arm64-filebrowser.tar.gz
-SOURCE_SUM=f3ba6c7932bce751522fccb0264da1287ae0764aa996d20e8dc0a7c66e300d06
+SOURCE_URL=https://github.com/filebrowser/filebrowser/releases/download/v2.22.3/linux-arm64-filebrowser.tar.gz
+SOURCE_SUM=3d5d7461ba2b7c9686d60ce076ea0076666207a8f8b9766ee87075772b197b29
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=false
