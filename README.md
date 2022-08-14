@@ -20,6 +20,7 @@ filebrowser provides a file managing interface within a specified directory and 
 
 **Shipped version:** 2.22.4~ynh1
 
+
 ## Screenshots
 
 ![Screenshot of Filebrowser](./doc/screenshots/spaces_-M8KDxOujDoPpJyJJ5_i_uploads_git-blob-9390768b0cbb83b1e7da55c0ae13ecd2d8fcb114_2.PNG)
