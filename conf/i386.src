@@ -1,0 +1,6 @@
+SOURCE_URL=https://github.com/filebrowser/filebrowser/releases/download/v2.23.0/linux-386-filebrowser.tar.gz
+SOURCE_SUM=96b4c090448e69279d45c922840cbb5fc7499a834df961becf0a2e29a9cb7159
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=false
+SOURCE_FILENAME=
