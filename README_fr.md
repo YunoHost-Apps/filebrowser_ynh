@@ -5,24 +5,24 @@ It shall NOT be edited by hand.
 
 # Filebrowser pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/filebrowser.svg)](https://dash.yunohost.org/appci/app/filebrowser) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/filebrowser.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/filebrowser.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/filebrowser.svg)](https://dash.yunohost.org/appci/app/filebrowser) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/filebrowser.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/filebrowser.maintain.svg)
 [![Installer Filebrowser avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=filebrowser)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Filebrowser rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Filebrowser rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 filebrowser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory. It can be used as a standalone app or as a middleware.
 
 
-**Version incluse :** 2.23.0~ynh2
+**Version incluse :** 2.23.0~ynh3
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Filebrowser](./doc/screenshots/spaces_-M8KDxOujDoPpJyJJ5_i_uploads_git-blob-9390768b0cbb83b1e7da55c0ae13ecd2d8fcb114_2.PNG)
+![Capture d’écran de Filebrowser](./doc/screenshots/spaces_-M8KDxOujDoPpJyJJ5_i_uploads_git-blob-9390768b0cbb83b1e7da55c0ae13ecd2d8fcb114_2.PNG)
 
 ## Avertissements / informations importantes
 
@@ -41,9 +41,9 @@ By default, the root path is set to `/home/yunohost.app/filebrowser`. You can ch
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://filebrowser.org>
-* Documentation officielle de l'admin : <https://filebrowser.org/>
-* Dépôt de code officiel de l'app : <https://github.com/filebrowser/filebrowser>
+* Site officiel de l’app : <https://filebrowser.org>
+* Documentation officielle de l’admin : <https://filebrowser.org/>
+* Dépôt de code officiel de l’app : <https://github.com/filebrowser/filebrowser>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_filebrowser>
 * Signaler un bug : <https://github.com/YunoHost-Apps/filebrowser_ynh/issues>
 
@@ -59,4 +59,4 @@ ou
 sudo yunohost app upgrade filebrowser -u https://github.com/YunoHost-Apps/filebrowser_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
