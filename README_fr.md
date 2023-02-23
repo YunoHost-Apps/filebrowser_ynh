@@ -6,6 +6,7 @@ It shall NOT be edited by hand.
 # Filebrowser pour YunoHost
 
 [![Niveau d’intégration](https://dash.yunohost.org/integration/filebrowser.svg)](https://dash.yunohost.org/appci/app/filebrowser) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/filebrowser.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/filebrowser.maintain.svg)
+
 [![Installer Filebrowser avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=filebrowser)
 
 *[Read this readme in english.](./README.md)*
