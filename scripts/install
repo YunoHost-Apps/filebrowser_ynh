@@ -32,6 +32,11 @@ ynh_script_progression --message="Configuring NGINX web server..." --weight=2
 # Create a dedicated NGINX config
 ynh_add_nginx_config
 
+# Create a dedicated systemd config
+ynh_add_systemd_config
+
+yunohost service add $app --description="Web File Browser" --log="/var/log/$app/$app.log"
+
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
@@ -41,21 +46,6 @@ ynh_add_config --template="../conf/settings.json" --destination="$install_dir/se
 
 chmod 600 "$install_dir/settings.json"
 chown $app:$app "$install_dir/settings.json"
-
-#=================================================
-# SETUP SYSTEMD
-#=================================================
-ynh_script_progression --message="Configuring a systemd service..." --weight=2
-
-# Create a dedicated systemd config
-ynh_add_systemd_config
-
-#=================================================
-# INTEGRATE SERVICE IN YUNOHOST
-#=================================================
-ynh_script_progression --message="Integrating service in YunoHost..." --weight=2
-
-yunohost service add $app --description="Web File Browser" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
