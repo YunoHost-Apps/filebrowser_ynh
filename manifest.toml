@@ -1,0 +1,50 @@
+packaging_format = 2
+
+id = "filebrowser"
+name = "Filebrowser"
+description.en = "Web File Browser"
+description.fr = "Gestionnaire de fichiers"
+
+version = "2.23.0~ynh4"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "Apache-2.0"
+website = "https://filebrowser.org"
+admindoc = "https://filebrowser.org/"
+code = "https://github.com/filebrowser/filebrowser"
+
+[integration]
+yunohost = ">= 11.1.11"
+architectures = "all"
+multi_instance = true
+ldap = "not_relevant"
+sso = "not_relevant"
+disk = "50M"
+ram.build = "100M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/filebrowser"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+    [resources.ports]
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
