@@ -3,6 +3,6 @@
   "baseURL": "__PATH__",
   "address": "127.0.0.1",
   "log": "stdout",
-  "database": "__FINALPATH__/database.db",
-  "root": "__DATADIR__"
+  "database": "__INSTALL_DIR__/database.db",
+  "root": "__DATA_DIR__"
 }

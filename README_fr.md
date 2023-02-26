@@ -19,26 +19,11 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 filebrowser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory. It can be used as a standalone app or as a middleware.
 
 
-**Version incluse :** 2.23.0~ynh3
+**Version incluse :** 2.23.0~ynh4
 
 ## Captures d’écran
 
-![Capture d’écran de Filebrowser](./doc/screenshots/spaces_-M8KDxOujDoPpJyJJ5_i_uploads_git-blob-9390768b0cbb83b1e7da55c0ae13ecd2d8fcb114_2.PNG)
-
-## Avertissements / informations importantes
-
-### Default credentials
-
-```
-username: admin
-password: admin
-```
-
-You must change the password and, if you can, the username for the best security possible.
-
-### Configuration
-
-By default, the root path is set to `/home/yunohost.app/filebrowser`. You can choose a different root path in filebrowser configuration file: `/var/www/filebrowser/settings.json` and modify **root** entry as desired. (you may need to set the correct permissions for the new path).
+![Capture d’écran de Filebrowser](./doc/screenshots/screenshot.PNG)
 
 ## Documentations et ressources
 
