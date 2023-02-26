@@ -31,10 +31,10 @@ ynh_change_url_nginx_config
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
 path="$new_path"
-ynh_add_config --template="../conf/settings.json" --destination="$final_path/settings.json"
+ynh_add_config --template="../conf/settings.json" --destination="$install_dir/settings.json"
 
-chmod 600 "$final_path/settings.json"
-chown $app:$app "$final_path/settings.json"
+chmod 600 "$install_dir/settings.json"
+chown $app:$app "$install_dir/settings.json"
 
 #=================================================
 # GENERIC FINALISATION
