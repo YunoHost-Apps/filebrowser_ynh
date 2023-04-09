@@ -5,7 +5,7 @@ name = "Filebrowser"
 description.en = "Web File Browser"
 description.fr = "Gestionnaire de fichiers"
 
-version = "2.23.0~ynh4"
+version = "2.23.0~ynh5"
 
 maintainers = ["eric_G"]
 
