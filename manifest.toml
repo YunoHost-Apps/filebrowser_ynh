@@ -53,10 +53,10 @@ ram.runtime = "50M"
         armhf.sha256 = "4c38b372d4489c4180db34a02019022ee2e73fb172365aaba87f12e8ce78a769"
 
         autoupdate.strategy = "latest_github_release"
-        autoupdate.asset.amd64 = "linux-amd64-filebrowser.tar.gz"
-        autoupdate.asset.arm64 = "linux-arm64-filebrowser.tar.gz"
-        autoupdate.asset.i386 = "linux-386-filebrowser.tar.gz"
-        autoupdate.asset.armhf = "linux-armv7-filebrowser.tar.gz"
+        autoupdate.asset.amd64 = "^linux-amd64-filebrowser.tar.gz$"
+        autoupdate.asset.arm64 = "^linux-arm64-filebrowser.tar.gz$"
+        autoupdate.asset.i386 = "^linux-386-filebrowser.tar.gz$"
+        autoupdate.asset.armhf = "^linux-armv7-filebrowser.tar.gz$"
 
     [resources.ports]
 
