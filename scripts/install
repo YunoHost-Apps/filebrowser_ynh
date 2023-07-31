@@ -26,7 +26,7 @@ chmod -R +x "$install_dir/filebrowser"
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
-ynh_script_progression --message="Adding system configurations related to $app ..." --weight=1
+ynh_script_progression --message="Adding system configurations related to $app..." --weight=1
 
 # Create a dedicated NGINX config
 ynh_add_nginx_config
