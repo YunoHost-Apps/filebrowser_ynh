@@ -30,7 +30,7 @@ filebrowser provides a file managing interface within a specified directory and 
 * Official app website: <https://filebrowser.org>
 * Official admin documentation: <https://filebrowser.org/>
 * Upstream app code repository: <https://github.com/filebrowser/filebrowser>
-* YunoHost documentation for this app: <https://yunohost.org/app_filebrowser>
+* YunoHost Store: <https://apps.yunohost.org/app/filebrowser>
 * Report a bug: <https://github.com/YunoHost-Apps/filebrowser_ynh/issues>
 
 ## Developer info
