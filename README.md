@@ -19,7 +19,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 filebrowser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory. It can be used as a standalone app or as a middleware.
 
 
-**Shipped version:** 2.25.0~ynh1
+**Shipped version:** 2.26.0~ynh1
 
 ## Screenshots
 
@@ -30,7 +30,7 @@ filebrowser provides a file managing interface within a specified directory and 
 * Official app website: <https://filebrowser.org>
 * Official admin documentation: <https://filebrowser.org/>
 * Upstream app code repository: <https://github.com/filebrowser/filebrowser>
-* YunoHost documentation for this app: <https://yunohost.org/app_filebrowser>
+* YunoHost Store: <https://apps.yunohost.org/app/filebrowser>
 * Report a bug: <https://github.com/YunoHost-Apps/filebrowser_ynh/issues>
 
 ## Developer info
