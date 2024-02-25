@@ -42,7 +42,7 @@ yunohost service add $app --description="Web File Browser" --log="/var/log/$app/
 ynh_script_progression --message="Set configuration" --weight=1
 
 pushd "$install_dir"
-	ynh_exec_warn_less ./filebrowser config init --address "127.0.0.1" --baseurl "$path" --database "$install_dir/database.db" --port "$port" --root "$data_dir" --username "$admin"
+	ynh_exec_warn_less ./filebrowser config init --address "127.0.0.1" --baseurl "$path" --database "$install_dir/database.db" --port "$port" --root "$data_dir" --branding.disableExternal --branding.name "$admin" --locale "FR"
 popd
 
 #=================================================
