@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # Filebrowser pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/filebrowser.svg)](https://dash.yunohost.org/appci/app/filebrowser) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/filebrowser.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/filebrowser.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/filebrowser.svg)](https://ci-apps.yunohost.org/ci/apps/filebrowser/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/filebrowser.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/filebrowser.maintain.svg)
 
 [![Installer Filebrowser avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=filebrowser)
 
@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 FileBrowser fournit une interface de gestion de fichiers dans un répertoire spécifié et peut être utilisé pour télécharger, supprimer, prévisualiser, renommer et modifier vos fichiers. Il permet la création de plusieurs utilisateurs et chaque utilisateur peut avoir son propre répertoire. Il peut être utilisé comme application autonome ou comme middleware.
 
-**Version incluse :** 2.30.0~ynh2
+**Version incluse :** 2.31.0~ynh1
 
 ## Captures d’écran
 
