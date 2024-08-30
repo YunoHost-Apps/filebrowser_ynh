@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Filebrowser YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/filebrowser.svg)](https://dash.yunohost.org/appci/app/filebrowser) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/filebrowser.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/filebrowser.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/filebrowser.svg)](https://ci-apps.yunohost.org/ci/apps/filebrowser/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/filebrowser.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/filebrowser.maintain.svg)
 
 [![Instalatu Filebrowser YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=filebrowser)
 
@@ -19,7 +19,7 @@ EZ editatu eskuz.
 FileBrowser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory. It can be used as a standalone app or as a middleware.
 
 
-**Paketatutako bertsioa:** 2.30.0~ynh2
+**Paketatutako bertsioa:** 2.31.0~ynh1
 
 ## Pantaila-argazkiak
 
