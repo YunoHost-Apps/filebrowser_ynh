@@ -1,5 +1,5 @@
 [Unit]
-Description=File browser
+Description=Filebrowser: Web File Browser
 After=network.target
 
 [Service]
