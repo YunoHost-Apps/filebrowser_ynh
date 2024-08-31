@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 FileBrowser fournit une interface de gestion de fichiers dans un répertoire spécifié et peut être utilisé pour télécharger, supprimer, prévisualiser, renommer et modifier vos fichiers. Il permet la création de plusieurs utilisateurs et chaque utilisateur peut avoir son propre répertoire. Il peut être utilisé comme application autonome ou comme middleware.
 
-**Version incluse :** 2.31.0~ynh1
+**Version incluse :** 2.31.1~ynh1
 
 ## Captures d’écran
 
