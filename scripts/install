@@ -20,10 +20,8 @@ chmod -R +x "$install_dir/filebrowser"
 #=================================================
 ynh_script_progression "Adding system configurations related to $app..."
 
-# Create a dedicated NGINX config
 ynh_config_add_nginx
 
-# Create a dedicated systemd config
 ynh_config_add_systemd
 
 yunohost service add $app --description="Web File Browser" --log="/var/log/$app/$app.log"
@@ -40,7 +38,6 @@ ynh_config_add --template="settings.json" --destination="$install_dir/settings.j
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-# Start a systemd service
 ynh_systemctl --service=$app --action="start" --log_path="systemd"
 
 #=================================================
