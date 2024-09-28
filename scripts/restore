@@ -22,8 +22,6 @@ ynh_restore "$data_dir"
 #=================================================
 # RESTORE SYSTEM CONFIGURATIONS
 #=================================================
-# RESTORE THE PHP-FPM CONFIGURATION
-#=================================================
 ynh_script_progression "Restoring system configurations related to $app..."
 
 ynh_restore "/etc/nginx/conf.d/$domain.d/$app.conf"
