@@ -19,7 +19,7 @@ No se debe editar a mano.
 FileBrowser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory. It can be used as a standalone app or as a middleware.
 
 
-**Versión actual:** 2.31.1~ynh1
+**Versión actual:** 2.31.1~ynh2
 
 ## Capturas
 
@@ -35,7 +35,7 @@ FileBrowser provides a file managing interface within a specified directory and 
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/filebrowser_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/filebrowser_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
