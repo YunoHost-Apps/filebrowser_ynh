@@ -19,7 +19,7 @@ Hij mag NIET handmatig aangepast worden.
 FileBrowser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory. It can be used as a standalone app or as a middleware.
 
 
-**Geleverde versie:** 2.31.1~ynh1
+**Geleverde versie:** 2.31.1~ynh2
 
 ## Schermafdrukken
 
