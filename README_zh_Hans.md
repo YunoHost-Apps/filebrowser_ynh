@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Filebrowser
 
-[![集成程度](https://dash.yunohost.org/integration/filebrowser.svg)](https://ci-apps.yunohost.org/ci/apps/filebrowser/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/filebrowser.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/filebrowser.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/filebrowser)](https://ci-apps.yunohost.org/ci/apps/filebrowser/)
+![工作状态](https://apps.yunohost.org/badge/state/filebrowser)
+![维护状态](https://apps.yunohost.org/badge/maintained/filebrowser)
 
 [![使用 YunoHost 安装 Filebrowser](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=filebrowser)
 
@@ -19,7 +21,7 @@
 FileBrowser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory. It can be used as a standalone app or as a middleware.
 
 
-**分发版本：** 2.31.2~ynh1
+**分发版本：** 2.32.0~ynh1
 
 ## 截图
 
