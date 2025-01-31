@@ -5,7 +5,9 @@
 
 # Filebrowser для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/filebrowser.svg)](https://ci-apps.yunohost.org/ci/apps/filebrowser/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/filebrowser.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/filebrowser.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/filebrowser)](https://ci-apps.yunohost.org/ci/apps/filebrowser/)
+![Состояние работы](https://apps.yunohost.org/badge/state/filebrowser)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/filebrowser)
 
 [![Установите Filebrowser с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=filebrowser)
 
@@ -19,7 +21,7 @@
 FileBrowser provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory. It can be used as a standalone app or as a middleware.
 
 
-**Поставляемая версия:** 2.31.2~ynh1
+**Поставляемая версия:** 2.32.0~ynh1
 
 ## Снимки экрана
 
