@@ -39,6 +39,7 @@ ynh_config_add --template="settings.json" --destination="$install_dir/settings.j
 #=================================================
 ynh_script_progression "Adding $app's admin user..."
 
+$install_dir/filebrowser config init
 $install_dir/filebrowser users add $admin $password --perm.admin
 
 #=================================================
