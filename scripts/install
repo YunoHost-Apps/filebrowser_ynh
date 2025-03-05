@@ -35,6 +35,13 @@ ynh_script_progression "Adding $app's configuration..."
 ynh_config_add --template="settings.json" --destination="$install_dir/settings.json"
 
 #=================================================
+# ADD A USER
+#=================================================
+ynh_script_progression "Adding $app's admin user..."
+
+$install_dir/filebrowser users add $admin $password --perm.admin
+
+#=================================================
 # START SYSTEMD SERVICE
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
