@@ -10,7 +10,7 @@ ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir"
 
-#touch $install_dir/database.db
+touch $install_dir/database.db
 
 chmod -R o-rwx "$install_dir"
 chown -R $app:$app "$install_dir"
@@ -40,8 +40,9 @@ ynh_config_add --template="settings.json" --destination="$install_dir/settings.j
 ynh_script_progression "Adding $app's admin..."
 
 pushd "$install_dir"
-    ynh_hide_warnings ./filebrowser config init
-    ynh_hide_warnings ./filebrowser users add "$admin" "password" --perm.admin
+    ynh_hide_warnings ./filebrowser config init --database /var/www/filebrowser/database.db
+    chown -R filebrowser:filebrowser database.db
+    ynh_hide_warnings ./filebrowser users add "$admin" "password" --perm.admin --database database.db
 popd
 
 #=================================================
