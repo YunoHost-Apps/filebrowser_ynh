@@ -7,8 +7,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/filebrowser -a 127.0.0.1 -p __PORT__ -s -b __PATH__ -r __DATA_DIR__
-#-c __INSTALL_DIR__/settings.json
+ExecStart=__INSTALL_DIR__/filebrowser -c __INSTALL_DIR__/settings.json
 
 # Sandboxing options to harden security
 # Depending on specificities of your service/app, you may need to tweak these
