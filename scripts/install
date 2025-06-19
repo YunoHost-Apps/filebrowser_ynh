@@ -30,9 +30,9 @@ yunohost service add $app --description="Web File Browser" --log="/var/log/$app/
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
-ynh_script_progression "Adding $app's configuration..."
+#ynh_script_progression "Adding $app's configuration..."
 
-ynh_config_add --template="settings.json" --destination="$install_dir/settings.json"
+#ynh_config_add --template="settings.json" --destination="$install_dir/settings.json"
 
 #=================================================
 # ADD ADMIN USER
