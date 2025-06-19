@@ -40,6 +40,7 @@ ynh_config_add --template="settings.json" --destination="$install_dir/settings.j
 ynh_script_progression "Adding $app's admin..."
 
 pushd "$install_dir"
+    ynh_hide_warnings ./filebrowser config init
     ynh_hide_warnings ./filebrowser users add "$admin" "password" --perm.admin
 popd
 
