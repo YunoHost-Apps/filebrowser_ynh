@@ -4,14 +4,14 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/master/logos/filebrowser.png" width="32px" alt="Logo of Filebrowser">
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/filebrowser.png" width="32px" alt="Logo of Filebrowser">
   Filebrowser, packaged for YunoHost
 </h1>
 
 Web File Browser
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://filebrowser.org)
-![Version: 2.32.0~ynh1](https://img.shields.io/badge/Version-2.32.0~ynh1-rgba(0,150,0,1)?style=for-the-badge)
+[![Version: 2.32.0~ynh1](https://img.shields.io/badge/Version-2.32.0~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/filebrowser/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/filebrowser"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
@@ -19,6 +19,8 @@ Web File Browser
 </div>
 
 ## 📦 Developer info
+
+[![Automatic tests level](https://apps.yunohost.org/badge/cilevel/filebrowser)](https://ci-apps.yunohost.org/ci/apps/filebrowser/)
 
 🛠️ Upstream Filebrowser repository: <https://github.com/filebrowser/filebrowser>
 
