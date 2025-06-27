@@ -49,7 +49,7 @@ ynh_script_progression "Sending credentials to admin..."
 sleep 5
 password=$(journalctl -u $app -n 2 | grep -m1 "admin" | awk '{print $NF}')
 ynh_app_setting_set --key=password --value=$password
-echo -e "FileBrowser Credentials:\nUsername: admin\nPassword: $password" | mail -s "FileBrowser Installation Details" root
+echo -e "FileBrowser for YunoHost Credentials:\nUsername: admin\nPassword: $password\nInstance id: $app" | mail -s "FileBrowser for YunoHost Installation Details" root
 
 #=================================================
 # END OF SCRIPT
