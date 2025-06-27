@@ -42,6 +42,15 @@ ynh_script_progression "Starting $app's systemd service..."
 ynh_systemctl --service=$app --action="start" --log_path="systemd"
 
 #=================================================
+# SENDING CREDENTIALS TO ROOT
+#=================================================
+ynh_script_progression "Sending credentials to admin..."
+
+password=$(systemctl status filebrowser --no-pager | grep -m1 "Generated random admin password" | awk '{print $NF}')
+ynh_app_setting_set --key=password --value=$password
+echo -e "FileBrowser Credentials:\nUsername: admin\nPassword: $password" | mail -s "FileBrowser Installation Details" root
+
+#=================================================
 # END OF SCRIPT
 #=================================================
 
