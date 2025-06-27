@@ -46,6 +46,7 @@ ynh_systemctl --service=$app --action="start" --log_path="systemd"
 #=================================================
 ynh_script_progression "Sending credentials to admin..."
 
+sleep 5
 password=$(journalctl -u $app -n 2 | grep -m1 "admin" | awk '{print $NF}')
 ynh_app_setting_set --key=password --value=$password
 echo -e "FileBrowser Credentials:\nUsername: admin\nPassword: $password" | mail -s "FileBrowser Installation Details" root
