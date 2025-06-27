@@ -1,6 +1,6 @@
 Default credentials
 
 username: `admin`
-password: $password
+password: __PASSWORD__
 
 You must change the password and, if you can, the username for the best security possible.
