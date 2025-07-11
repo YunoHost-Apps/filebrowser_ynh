@@ -46,14 +46,14 @@ ram.runtime = "50M"
 
         [resources.sources.main]
         in_subdir = false
-        amd64.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.33.8/linux-amd64-filebrowser.tar.gz"
-        amd64.sha256 = "b901ec26a56872a2c1b5c389d59ec67fe3edce9ecfb86f2af7e2feeccaed78a4"
+        amd64.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.37.0/linux-amd64-filebrowser.tar.gz"
+        amd64.sha256 = "5e5f15b4f7bd68587e35e526c0a05db0ba04e0ea0bacad5fd5f7b2a9c746a5ab"
         arm64.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.37.0/linux-arm64-filebrowser.tar.gz"
         arm64.sha256 = "79032665471af25355f27a7dd234760f5547edc8eee689e8ad2fd89ba72ed864"
-        i386.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.33.8/linux-386-filebrowser.tar.gz"
-        i386.sha256 = "3e459f7762ddd0d6ca84f63c2312c71480bb2676dc2bf7ef214fbc69639451cc"
-        armhf.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.33.8/linux-armv7-filebrowser.tar.gz"
-        armhf.sha256 = "a6359396670ef304ec2b8d2b23f891597fc59b71954e4f9d1a717ce9454a3346"
+        i386.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.37.0/linux-386-filebrowser.tar.gz"
+        i386.sha256 = "645b50982b4077e96bd5fb87150f5fe2bb6164924fc53bfe144a0fd6dc25e7c7"
+        armhf.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.37.0/linux-armv7-filebrowser.tar.gz"
+        armhf.sha256 = "b22dc0e7307e80ed335786d52bd1ab69090982c4730cffb79d19d5afca18598a"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = "^linux-amd64-filebrowser.tar.gz$"
