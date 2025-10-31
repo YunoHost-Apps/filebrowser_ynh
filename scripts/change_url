@@ -21,6 +21,13 @@ ynh_config_change_url_nginx
 #=================================================
 ynh_script_progression "Adding $app's configuration..."
 
+if [ -z "${password:-}" ]; then
+    password=$(ynh_app_setting_get --app=$app --key=password)
+fi
+
+ynh_replace_string "__PASSWORD__" "$password" "$install_dir/settings.json"
+
+
 ynh_config_add --template="settings.json" --destination="$install_dir/settings.json"
 
 #=================================================
