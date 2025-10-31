@@ -25,7 +25,7 @@ if [ -z "${password:-}" ]; then
     password=$(ynh_app_setting_get --app=$app --key=password)
 fi
 
-ynh_replace_string "__PASSWORD__" "$password" "$install_dir/settings.json"
+ynh_substitute_string "__PASSWORD__" "$password" "$install_dir/settings.json"
 
 
 ynh_config_add --template="settings.json" --destination="$install_dir/settings.json"
