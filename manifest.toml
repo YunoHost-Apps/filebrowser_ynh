@@ -5,7 +5,7 @@ name = "Filebrowser"
 description.en = "Web File Browser"
 description.fr = "Gestionnaire de fichiers"
 
-version = "2.45.0~ynh1"
+version = "2.45.1~ynh1"
 
 maintainers = [ ]
 
@@ -40,20 +40,26 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
+    [install.admin]
+    type = "user"
+
+    [install.password]
+    type = "password"
+
 [resources]
 
     [resources.sources]
 
         [resources.sources.main]
         in_subdir = false
-        amd64.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.45.0/linux-amd64-filebrowser.tar.gz"
-        amd64.sha256 = "500db540a5beaf49a96abe24f142e87f4fd2c7705fe4bf219de68f82e7ee86ad"
-        arm64.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.45.0/linux-arm64-filebrowser.tar.gz"
-        arm64.sha256 = "73c593f82932c8953839e21f177287682200772ba8a6687b877ddb003a77014a"
-        i386.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.45.0/linux-386-filebrowser.tar.gz"
-        i386.sha256 = "2dee497a00252e9d386d4db48f382ef2d725b645c0018ac8d2dd11e4fbd3a712"
-        armhf.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.45.0/linux-armv7-filebrowser.tar.gz"
-        armhf.sha256 = "1f7edde1a6f8523e75cf3e540877f228e2e8677f6a2be9ea74b3be8e54a6616d"
+        amd64.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.45.1/linux-amd64-filebrowser.tar.gz"
+        amd64.sha256 = "e0c07c8926bd850f8a62a221a0b6832afcbed0ff445c68a4116562c0cf0ddc84"
+        arm64.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.45.1/linux-arm64-filebrowser.tar.gz"
+        arm64.sha256 = "e4f9961124fa6156c4208cf46ac50bf967bfae7f7b88b99add9c7cb6739bc21f"
+        i386.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.45.1/linux-386-filebrowser.tar.gz"
+        i386.sha256 = "8272199bc8b65f3ec19aeb2232c669da6154cb77b00e3f2b6b5dc200216e4b53"
+        armhf.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.45.1/linux-armv7-filebrowser.tar.gz"
+        armhf.sha256 = "1937ebc9610d8d67bb01887b8e8f9f850a1e94f26f017ce17952e296a29fc820"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = "^linux-amd64-filebrowser.tar.gz$"
