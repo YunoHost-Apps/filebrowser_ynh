@@ -45,6 +45,7 @@ ram.runtime = "50M"
 
     [install.password]
     type = "password"
+    help = "minimum length is 12"
 
 [resources]
 
