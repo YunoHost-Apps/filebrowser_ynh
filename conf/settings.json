@@ -3,7 +3,7 @@
   "baseURL": "__PATH__",
   "address": "127.0.0.1",
   "log": "stdout",
-  "database": "__INSTALL_DIR__/database.db",
+  "database": "__INSTALL_DIR__/filebrowser.db",
   "root": "__DATA_DIR__",
   "username":"__ADMIN__",
   "password":"__PASSWORD__"
