@@ -5,7 +5,7 @@ name = "Filebrowser"
 description.en = "Web File Browser"
 description.fr = "Gestionnaire de fichiers"
 
-version = "2.59.0~ynh1"
+version = "2.60.0~ynh1"
 
 maintainers = [ ]
 
@@ -54,14 +54,14 @@ ram.runtime = "50M"
 
         [resources.sources.main]
         in_subdir = false
-        amd64.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.59.0/linux-amd64-filebrowser.tar.gz"
-        amd64.sha256 = "8cd8c3baecb086028111b912f252a6e3169737fa764b5c510139e81f9da87799"
-        arm64.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.59.0/linux-arm64-filebrowser.tar.gz"
-        arm64.sha256 = "f39a6b5e2fce5b6134cf6c7b1c5fc5b43136bfe181481c503e0da0c843825676"
-        i386.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.59.0/linux-386-filebrowser.tar.gz"
-        i386.sha256 = "13d9122182e54eb9140fd48e133e7e0516dff966afc92599a19a87b373d75130"
-        armhf.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.59.0/linux-armv7-filebrowser.tar.gz"
-        armhf.sha256 = "e25eaafc15b47bf0fc9e47d035fe278fef6871b4a509f96447cea44b331d2cc9"
+        amd64.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.60.0/linux-amd64-filebrowser.tar.gz"
+        amd64.sha256 = "cdb26231fb9bbef23cf5d438eec2e87589041a2a9461bd77176bef68a5f9b305"
+        arm64.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.60.0/linux-arm64-filebrowser.tar.gz"
+        arm64.sha256 = "7a6b21b009b3479422bdcc1460533b649848d13ebb99c7f4ae90711b395846c8"
+        i386.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.60.0/linux-386-filebrowser.tar.gz"
+        i386.sha256 = "4fa3a05080f82bde23ccaf143ce88663efa0200f01eed5a6ae13d9279b763f5d"
+        armhf.url = "https://github.com/filebrowser/filebrowser/releases/download/v2.60.0/linux-armv7-filebrowser.tar.gz"
+        armhf.sha256 = "430729d3f280db01dd26e00d173c834166310f2b8a42d7899233f04b0a36d57b"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = "^linux-amd64-filebrowser.tar.gz$"
