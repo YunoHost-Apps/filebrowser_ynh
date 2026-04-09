@@ -35,6 +35,10 @@ ynh_config_add_systemd
 
 yunohost service add $app --description="Web File Browser" --log="/var/log/$app/$app.log"
 
+ynh_config_add_logrotate
+
+ynh_config_add_fail2ban --logpath="/var/log/nginx/${domain}-error.log" --failregex="\/api\/login: 403 <HOST> *"
+
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
