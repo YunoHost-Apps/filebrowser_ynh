@@ -27,6 +27,9 @@ fi
 
 ynh_replace --match="__PASSWORD__" --replace="$password" --file="$install_dir/settings.json"
 
+# Use logrotate to manage application logfile(s)
+ynh_config_add_logrotate
+
 ynh_config_add --template="settings.json" --destination="$install_dir/settings.json"
 
 #=================================================
